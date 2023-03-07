@@ -7,7 +7,7 @@ const Gig = () => {
     <div className='gig'>
       <div className="container">
         <div className="left">
-          <span className="breadCrumbs">FIVER > GRAPHICS & DESIGN ></span>
+          <span className="breadCrumbs">FIVER &gt; GRAPHICS & DESIGN &gt;</span>
           <h1>I will use midjourney to create stunning ai generated art, ai art</h1>
           <div className="user">
             <img className='pp' src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
