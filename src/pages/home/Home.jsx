@@ -1,9 +1,10 @@
 import React from 'react'
 import CatCard from '../../components/catCard/CatCard'
+import ProjectCard from '../../components/projectCard /ProjectCard'
 import Featured from '../../components/featured/Featured'
 import Slide from '../../components/slide/Slide'
 import TrustedBy from '../../components/trustedBy/TrustedBy'
-import { cards } from '../../data'
+import { cards, projects } from '../../data'
 import './Home.scss'
 
 const Home = () => {
@@ -81,9 +82,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Slide slidesToShow={5} arrowsScroll={5}>
+      <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map(card=>(
-          <CatCard key={card.id} item={card} />
+          <ProjectCard key={card.id} item={card} />
         ))}
       </Slide>
     </div>
