@@ -28,7 +28,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
             <td>
@@ -40,7 +40,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
             <td>
@@ -52,7 +52,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
           </tr>
@@ -61,7 +61,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
           </tr>
@@ -70,7 +70,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
           </tr>
@@ -79,7 +79,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
           </tr>
@@ -88,7 +88,7 @@ const Messages = () => {
               John Doe
             </td>
             <td>
-              <Link to='/message/123'>{message.substring(0,100)}...</Link>
+              <Link to='/message/123' className='link'>{message.substring(0,100)}...</Link>
             </td>
             <td>1 day ago</td>
           </tr>
