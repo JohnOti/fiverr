@@ -1,3 +1,3 @@
 # Fiverr
 ## user experience
-![UI](./public/img/fiverr.png "Optional title")
+![UI](./public/img/fiverr-home.png "Optional title")
